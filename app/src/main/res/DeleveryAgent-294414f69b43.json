@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "deleveryagent-213516",
+  "private_key_id": "294414f69b43311771580259175b442d75accd0c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCkhAvteoRV4TX9\n9YldbIXvvw/EJS8sEYj/yELynxwEs7QDiLG4uyY9itXRiiAAjMItJzaa03toEj2M\nqZG5RrUfrpOXINZg+HlNi6XcUbVNUkUtlxOWaVehOJfTblf7jkvWRhREOJzM9Aa1\nYvKnee7eR1efkJrPoUz45Wog08Iv9XJYY1kJ/8J2O8obuwF9BUXYBTR6C+mam4nK\nWfqlGeDhYFoyUd5gmmJSEH3OiqDUlCIEkz5ymVw9godAZa2Hqfj6fKMl1lzXBVlK\n+Dyo09AYBruBdAioBra34An+OaIBDgfVz63OI0K2gukxfaU+W5uZDYoNMPXm5al+\nA7oevw1TAgMBAAECggEAFuJuDP0OQX/6vwvpAr+LgLEGzsBkEnDnVLqVDXjdMI5A\nISm3nGcex6VzXsV5ns9LB3WSnpuCaWn4I9lGoGDZ5cFRXc6/OMKiOmDi6TB4ftFN\n4YHywz5+ERAf69TylNcowh1Xc7Hy+yjgHK/Z6eVdOTrv+7iQFbJt/vAIAO7+mSWw\nUJdpz5Bnn31IXaWm8dm6t8ngqc7LtXA42rhclaObpWFLjuhjulkTU3zUM7FMCJUe\n+JsQtsPi98eIU9X+bbMmNXACj83FhPbjQWjuyV976LjPr1+wR89+yZhEjIrTyFcy\ngKRiRKlROV1pxINjGEHAIq7iGi9vgYyDHE//EnX4CQKBgQDjT/JkW+bz+KlQxqBT\nhzxKKQp+Vm/c0W/TTVOaoIQp1GypfeksWq1J5ufRp2O9EowHeyi5Ji9rbVAi49Iw\n0U7BwQl5TfhzZy35wSrs09xxwxeQ2OSgFoJGN33HigSbIQYKNaTss+jF2QoFa3RW\nJWY6lgYhwluJ+2mWOgLADfEP5wKBgQC5R0H7oE2Ha1cwTcsNTSCqZFAOnSlNznrn\nWgxNEn+bXzkQBFIn/cwjC6/YvbOMTmgUdculQCdIY9gw/YLm/ZUwE0Mk5/eFvuhD\nQHxA/KgRX5gmQ19G9amCSK2R7gheQoqjtDYEelzrOY/A8f0mvryzFO9dx1Alb5Hs\nPybuogzZtQKBgQDBUWSb5WztYDTe9Y20e/bSO0UpXOmVqqin08OeZZUA3h/rpaGA\njz2A9FeC/hDc48EjO6LOk6MQgc79XTONQPTx4vHjsGP0AXQgTB/teeCo/3ozPcJy\nQ7JXdSoLYV25cMRqOmUgyYDVglf7c/9kpDnk6WIdo+Wl26NYl81u+GxjUQKBgQC2\n8XRmh/9lkoixym6PgLOba5ddBrPM/u9+VvzEcVqMyPZoKUwR7tlNVXHZml6aUKUW\nZsWhMvpW0TecEAXcHVHc+XgYDe/rIPjnxtmptZAiL3jldyqxv0oTub2g1R9wK1YH\nlJ6tx0DOhrS5+HdVdYqPbUF5IJ+zhznXwvenM11q7QKBgQCRgkvcoS0lrwgDyzGI\nhovbDw7/2IMpoEQwJmkDtiacMluKpW855KT9gHuJeOzwzqqc3Wp6fUM/VohDM6Cq\n/W9ndnxUfa5JROfgqv+PN0ttM+g5xN6MzPWvekH69sXMAAysctmHrCCMuHTxOOZ9\nCVWe2WQb9+sNe73GxDGzrACynA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "stramousov-roman@deleveryagent-213516.iam.gserviceaccount.com",
+  "client_id": "107797622212334243970",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/stramousov-roman%40deleveryagent-213516.iam.gserviceaccount.com"
+}

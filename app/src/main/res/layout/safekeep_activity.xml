@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/safekeepDrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.activities.SafekeepActivity"
+        tools:openDrawer="start">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/safekeepCoordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/safekeepToolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:layout_scrollFlags="scroll"
+                    app:popupTheme="@style/AppTheme.PopupOverlay"
+                    app:title="@string/safekeep_title_tollbar" />
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/safekeepTabLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:animateLayoutChanges="true"
+                    app:tabGravity="fill"
+                    app:tabIndicatorColor="@android:color/white"
+                    app:tabIndicatorHeight="4dp"
+                    app:tabSelectedTextColor="@android:color/white"
+                    app:tabTextColor="@color/colorTabText" />
+
+            </android.support.design.widget.AppBarLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/safekeepViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </android.support.design.widget.CoordinatorLayout>
+
+        <include layout="@layout/app_navigation_view" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</layout>

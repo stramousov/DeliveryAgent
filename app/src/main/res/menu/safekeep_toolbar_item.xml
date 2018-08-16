@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/safekeep_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="1"
+        android:title="Найти"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_calendar"
+        android:orderInCategory="3"
+        android:title="Выбрать период" />
+
+    <item
+        android:icon="@drawable/ic_filter"
+        android:orderInCategory="4"
+        android:title="Фильтр" />
+
+</menu>

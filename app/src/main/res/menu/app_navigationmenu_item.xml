@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_clipboard"
+        android:orderInCategory="1"
+        android:title="Мои накладные"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_package_down"
+        android:orderInCategory="1"
+        android:title="Мои поступления"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_package_up"
+        android:orderInCategory="1"
+        android:title="Мои отгрузки"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_question"
+        android:orderInCategory="1"
+        android:title="Обратная связь"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/appNavigationSettings"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="1"
+        android:title="Настройки"
+        app:showAsAction="ifRoom" />
+
+</menu>
