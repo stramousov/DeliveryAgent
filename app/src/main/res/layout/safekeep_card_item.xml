@@ -17,7 +17,7 @@
         android:layout_marginBottom="@dimen/card_spacing"
         android:layout_marginLeft="@dimen/card_spacing"
         android:layout_marginRight="@dimen/card_spacing"
-        android:foreground="?attr/selectableItemBackground"
+        android:foreground="?android:attr/selectableItemBackground"
         android:minHeight="@dimen/card_height"
         app:cardCornerRadius="2dp"
         app:cardElevation="8dp">
@@ -29,6 +29,7 @@
 
             <TextView
                 android:id="@+id/safekeepDocNumber"
+                style="@style/TextAppearance.AppCompat.Large"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
@@ -39,6 +40,7 @@
 
             <TextView
                 android:id="@+id/safekeepDocDate"
+                style="@style/TextAppearance.AppCompat.Medium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/safekeepDocNumber"
@@ -50,6 +52,7 @@
 
             <TextView
                 android:id="@+id/safekeepDocDescription"
+                style="@style/TextAppearance.AppCompat.Small"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/safekeepDocDate"
@@ -68,14 +71,14 @@
                 android:layout_below="@+id/safekeepDocDescription"
                 android:text="Принять"
                 android:textAllCaps="true"
-                android:textColor="?attr/colorAccent" />
+                android:textColor="?android:attr/colorAccent" />
 
             <ImageButton
                 android:id="@+id/safekeepMenuButton"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="@dimen/cards_button_width"
                 android:layout_height="@dimen/cards_button_height"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:layout_below="@+id/safekeepDocDescription"
                 android:tint="@color/colorButtonGrey"
                 app:srcCompat="@drawable/ic_more_vert" />
